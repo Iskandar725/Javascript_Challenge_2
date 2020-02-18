@@ -1,0 +1,52 @@
+Javascript Knowledge Check  - Level 1
+
+1)What are the different data types in JavaScript?
+- String, number, Boolean, arrays, objects.
+
+2)What are the different operators for numbers in Javascript?
+- +, - , *, / ,%, .
+
+3)What is String Concatenation?
+- Combination of strings on either side by using one string operator which is ‘+’.
+
+4)What are the different methods of an Array?
+- push, pop, shift, unshift.
+
+5)Define a function that will take two parameters and return the product of the two parameters (eg: 3 * 2)
+Function product(a,b){
+Return a*b;
+}
+6)Define a function that will take three parameters that will return:
+a)The product of the first two parameters
+b)The product of all the three parameters
+
+function areaVolume(a,b,c){
+return [a*b, a*b*c];
+}
+Javascript Knowledge Check - Level 2 
+1)What are is variable and global scope. Give an example of code to describe it.
+
+var a = 5;
+function calculate(){
+var a = 10;
+console.log(a);
+}
+console.log(a);
+calculate();
+console.log(a);
+2)What is an object? Create an example of ‘Car’ Object.
+Object is a representation of a real world object in programming in cosists of properties (variables), method (function)
+
+var car = {
+color: “blue”
+model: “HRV”
+distributor: “Honda”
+numberOfDoor:4
+meter:0
+
+3)How do you create a Random number between 1-100?
+
+function generateRandomNumber(){
+  return Math.floor(Math.random() * 100)
+}
+console.log(generateRandomNumber());
